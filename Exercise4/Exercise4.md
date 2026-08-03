@@ -34,4 +34,5 @@ Relative path :
 => cd project/src
 
 Absolute path :
-=> cd ~/bash_course/project/src
+=> cd /home/xxxx/bash_course/project/src
+(From the root directory, not the ~ which is the home directory)

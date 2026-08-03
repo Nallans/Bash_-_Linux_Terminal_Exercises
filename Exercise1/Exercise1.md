@@ -13,6 +13,9 @@ Go to bash_course.
 
 Return to the previous directory.
 => cd ..
+WRONG ANSWER (misunderstood)
+cd .. is the parent directory
+=> cd - is the previous directory
 
 Return again to bash_course.
 => cd Bash+Linux_Terminal

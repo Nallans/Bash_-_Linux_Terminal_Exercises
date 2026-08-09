@@ -72,3 +72,11 @@ Method 3: truncate
 This explicitly sets the file size to zero bytes.
 
 This is a dedicated utility and is very useful in scripts.
+
+A small experiment
+
+Run these:
+
+echo "ABC" > file1
+echo -n "ABC" > file2
+wc -c file1 file2

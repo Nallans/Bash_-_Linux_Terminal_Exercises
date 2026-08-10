@@ -44,3 +44,21 @@ Really useful. less makes history readable like a man page, "|" puts all history
 
 A good command for searching directly : 
 Ctrl + R, then type what you're looking for
+
+Another method
+
+History entries are numbered.
+
+For example:
+
+120  ls
+121  pwd
+122  tree
+
+You can run command 121 directly:
+
+!121
+
+Or repeat the most recent command beginning with pw:
+
+!pw

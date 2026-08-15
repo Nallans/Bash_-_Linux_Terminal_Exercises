@@ -35,4 +35,11 @@ From bash_course/project/src directory :
 =>ls *.txt
 =>ls *.c
 => echo *.c | wc -w 
+
 Here echo *.c gets sent (with pipe) in wc -w which counts the word, so echo prints 4 if there are four files with the .c extension.
+The exact process would be : 
+- The wildcard expands with all the files bash find before echo runs (for example, it transforms into echo test.c test2.c test3.c test4.c | wc -w)
+- echo runs by printing those filenames
+- Pipe "|" sends that output to wc
+- wc -w counts the whitespace-separated words
+- Result is displayed : 4

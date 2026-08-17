@@ -21,3 +21,7 @@ From the bash_course/project directory :
 => find . -type f | wc -w
 => find . -type f -name "*.c" | less
 => grep -r "engine" | less
+
+A slight correction : wc -w counts words. So if there's a "my file.c", it will count as two words and would result as a wrong output. So the correct command would be :
+wc -l 
+which counts every line. As find usually outputs one path per line, it would be the correct way to do it.

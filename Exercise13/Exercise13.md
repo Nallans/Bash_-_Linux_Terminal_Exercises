@@ -34,8 +34,9 @@ Explanation :
 - echo "printf"
 - pipes it to tee
 - tee command copies the input on the expanded list of files
+### Important distinction : tee overwrites files. If you need to append, you need to use -a option
 
-=> cat src/main{main.c,math.c,utils.c,notes.txt}
+=> cat src/{main.c,math.c,utils.c,notes.txt}
 Display the content of every file to verify
 
 => grep "printf" src/*
@@ -43,8 +44,8 @@ Display the content of every file to verify
 - grep looks for "printf" in every file
 Another way to do it, without specifying directory :
 => grep -r "printf" *
-- All files expanded, recursively from the current directory
-- grep searches for "printf" in every file
+- All files expanded from the current directory
+- grep searches recursively for "printf" in every file
 
 => grep -rn "malloc" *
 - All files expanded recursively from the current directory

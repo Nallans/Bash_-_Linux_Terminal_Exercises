@@ -1,4 +1,4 @@
-# Exercise 3 — the ? wildcard
+# Exercise 12 — the ? wildcard
 
 Create these files:
 

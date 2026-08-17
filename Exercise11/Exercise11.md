@@ -1,4 +1,4 @@
-# Exercise 2 — copying with wildcards
+# Exercise 11 — copying with wildcards
 
 Create a directory called backup.
 

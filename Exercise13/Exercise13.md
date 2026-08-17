@@ -1,4 +1,4 @@
-# Exercise 4 — searching inside files
+# Exercise 13 — searching inside files
 
 Add text to several files.
 

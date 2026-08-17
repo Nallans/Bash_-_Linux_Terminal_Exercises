@@ -1,4 +1,4 @@
-# Exercise 6 — command composition challenge
+# Exercise 15 — command composition challenge
 
 Create this structure:
 

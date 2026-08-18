@@ -11,3 +11,7 @@ You'll need to discover the appropriate wc options.
 
 Then combine commands where necessary.
 
+=> cat names.txt | wc -l
+=> cat names.txt | wc -w
+=> cat names.txt | wc -m
+=> sort -u names.txt | wc -l

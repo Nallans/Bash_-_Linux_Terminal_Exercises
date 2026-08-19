@@ -22,3 +22,5 @@ The goal is to understand that head and tail don't have to operate directly on f
 => tail -10 Exercise20.txt
 => find ~/bash_course/project -type f | head -5
 => find ~/bash_course/project -type f | tail -5
+
+Head and tail both default to 10 lines without arguments. So writing -10 is equivalent to writing nothing.

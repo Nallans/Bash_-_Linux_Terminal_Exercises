@@ -14,3 +14,11 @@ Pipe a long command into tail.
 For example, try this with:
 
 The goal is to understand that head and tail don't have to operate directly on files. They can consume stdin from a pipe.
+
+=> nano Exercise20.txt, writing 15 lines
+=> head -5 Exercise20.txt
+=> tail -5 Exercise20.txt
+=> head -10 Exercise20.txt
+=> tail -10 Exercise20.txt
+=> find ~/bash_course/project -type f | head -5
+=> find ~/bash_course/project -type f | tail -5

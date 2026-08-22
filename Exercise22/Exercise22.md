@@ -14,5 +14,5 @@ Search recursively through your project directory.
 => grep "error" Exercise22.txt
 => grep -i "LOREM" Exercise22.txt // Ignore case (not care about upper or lowercase)
 => grep -n "Lorem" Exercise22.txt // Matching line numbers
-=> grep -v "error" Exercise22.txt // invert grep and displays everything that doesn't contain [PATTERN]
+=> grep -v "error" Exercise22.txt // invert grep and displays every line that doesn't contain [PATTERN]
 => grep -r "Hello" ~/bash_course/project

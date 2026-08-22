@@ -1,0 +1,20 @@
+Hello
+This is a text document for exercise 22
+Let's paste some several lines of text :
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Nam feugiat velit vitae neque posuere aliquam. 
+Integer facilisis in lectus nec mattis. 
+Curabitur sollicitudin condimentum massa in aliquet. 
+Curabitur vitae suscipit sapien. Ut volutpat scelerisque mauris non mattis. 
+Mauris semper non ante et vestibulum. Aenean nibh elit, pretium a libero in, 
+rhoncus iaculis urna.
+Maecenas ullamcorper non turpis vitae tempor. Aenean tellus lectus, volutpat 
+sit amet luctus et, convallis eget ex. Curabitur dictum scelerisque nibh, ut 
+mattis justo laoreet id. Fusce vitae pulvinar augue. Nulla id urna neque. 
+Mauris scelerisque faucibus lectus, ut maximus velit interdum quis. Cras 
+nulla nisi, porta at commodo in, imperdiet ac dui. Integer scelerisque justo 
+a hendrerit dictum. Fusce tempor lacus at imperdiet consectetur. Integer at 
+viverra sem, ut sodales arcu. Aliquam pharetra odio ornare enim volutpat, 
+vel scelerisque ex lobortis. Phasellus non scelerisque lacus. Nunc in 
+vestibulum nisl. Praesent augue lorem, ultricies ut sapien quis, euismod 
+sollicitudin tellus. Etiam accumsan viverra odio, eu hendrerit elit. 

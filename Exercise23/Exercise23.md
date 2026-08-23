@@ -34,7 +34,7 @@ This exercise is about reading permissions, not modifying them.
 
 => ls -l 
 First character : Specifies if it is a directory, file or link
-2,3,4 characters : User rights 
+2,3,4 characters : Owner rights 
 5,6,7 characters : Group rights
 8,9,10 characters : Others rights 
 For these groups of three, each letter corresponds to r,w,x (Read, Write, Execute) rights. 

@@ -1,7 +1,7 @@
 Hello,
 This is a text file for experimenting with Linux permissions.
 The permissions system in Linux is very useful, and can be used with symbolic
-(u(user), g(group), o(owner) / r(read), w(write), x(execute)) notation.
+(u(user), g(group), o(others) / r(read), w(write), x(execute)) notation.
 It is better to modify only one permission, for example if you want to add execute right to the owner, just use "chmod u+x file.txt".
 If you want to modify all the rights, you can use numeric notation to be very fast.
 For example, if you want rwx|-wx|--x : chmod 731 file.txt 

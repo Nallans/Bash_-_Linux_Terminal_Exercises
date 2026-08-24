@@ -1,0 +1,2 @@
+cat permissions.txt
+echo

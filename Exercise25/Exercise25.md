@@ -27,3 +27,10 @@ ls -l permissions.txt
 
 to verify that the permission string changed as expected.
 
+Using ls -l between each step to check : 
+
+=> code permissions.txt && writing some text into it
+=> chmod u+x permissions.txt
+=> chmod u-x permissions.txt
+=> chmod g+r permissions.txt
+=> chmod o-r permissions.txt

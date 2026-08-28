@@ -17,3 +17,5 @@ removes duplicates,
 displays only the first 10 results.
 
 You should be able to build this from the tools you've learned rather than searching for a single magic command.
+
+=> grep -i "a" words.txt | sort -uf | head -10

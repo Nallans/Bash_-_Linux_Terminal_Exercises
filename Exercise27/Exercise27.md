@@ -29,3 +29,5 @@ Instead, treat it as an investigation and combine your tools progressively.
 => grep -rl "hello"
 => grep -rl "printf"
 => find . -empty
+=> find . -type f -exec ls -lt {} + | head -5
+=> find . -type f -exec ls -lt {} +

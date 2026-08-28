@@ -22,3 +22,10 @@ What permissions does each file have?
 You should not solve this as one enormous command.
 
 Instead, treat it as an investigation and combine your tools progressively.
+
+=> find . -type f | wc -l
+=> find . -name "*.c" | wc -l
+=> find . -name "*.h" | wc -l
+=> grep -rl "hello"
+=> grep -rl "printf"
+=> find . -empty

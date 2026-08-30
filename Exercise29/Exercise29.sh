@@ -11,6 +11,10 @@ echo $sentence2
 
 # It looks like by default, as I stored the sentence between double quotes, Bash displays it like a sentence. But if I'm using single quotes, then I can access the variable's name. So the variable gets expanded in double quotes, but not in single quotes. 
 
-# When using spaces inside variables between word in double quotes, Bash interprets them as commands or other arguments.
+# The difference when using quoted and unquoted variables :
+# $sentence     => if used with another command, bash performs word splitting and each word is treated as a separate argument for the command
+# "$sentence"   => the whole variable is treated as an argument for the command
 
 # The single quotes can be used inside of a double quote sentence either for regular use or for calling a variable
+
+# $ is the parameter expansion character
